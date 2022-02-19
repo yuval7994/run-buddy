@@ -7,15 +7,18 @@
 header {
     padding: 20px 35px; 
     background-color: #39a6b2;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 header h1 {
     font-weight: bold;
-    font-size: 36px; 
-    color: #fce138; 
     margin: 0;
-    display: inline; 
-}
+    font-size: 36px;
+    color: #fce138;
+  }
+
 
 header a {
     text-decoration: none; 
@@ -23,7 +26,6 @@ header a {
 }
 
 header nav {
-   float: right; 
    margin: 7px 0;
 }
 
@@ -233,6 +235,11 @@ section {
   }
   .contact h2 {
     color: #fce138;
+  }
+
+  .contact-info iframe {
+    width: 400px; 
+    height: 400px; 
   }
 
   .contact-info div {
